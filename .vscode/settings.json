@@ -1,0 +1,31 @@
+{
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "angular.components.standalone": false,
+  "angular.components.style": "scss",
+  "angular.files.include": [
+    "ts"
+  ],
+  "angular.files.exclude": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/.*/**",
+    "**/*.spec.ts",
+  ],
+  "angular.files.watch": [
+    "modules",
+    "guards",
+    "components",
+    "services"
+  ],
+  "angular.files.showPath": false,
+}
