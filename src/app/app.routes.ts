@@ -13,6 +13,6 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./pages/auth/auth.module').then(module => module.AuthModule),
   },
-  { path: '', redirectTo: 'index', pathMatch: 'full' },
+  { path: '', redirectTo: 'auth', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent, pathMatch: 'full' },
 ];
